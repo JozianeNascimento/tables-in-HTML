@@ -1,0 +1,16 @@
+body{
+    background-color: honeydew;
+}
+.cat{
+    color: rgb(14, 197, 14);
+    text-align: center;
+}
+.firstTable{
+    border-radius: 5px;
+    border-color: hotpink;
+    text-align: center;
+    padding: 3px;
+    font-family: 'Courier New', Courier, monospace;
+    width: 300px;
+    line-height: 30px;
+}

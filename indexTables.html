@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="parte.css">
+    <title>Tabela</title>
+</head>
+
+<body>
+    <h1>Remember to do table in Html!</h1>
+    <h1 style=" text-align:center;"><span
+            style="color:rgb(214, 19, 188);">=^.^=</span></h1>
+    <table class="firstTable" border="2px" cellspacing="1px" cellpadding=1pxwidth=2pxalign=center bgcolor=#fefefe bordercolor=black>
+        <tr>
+            <!--cria uma linha-->
+            <th>Dia</th>
+            <!--cria um header/cabecalho(opcional)-->
+            <th>Valor</th>
+        </tr>
+        <!--encerra a linha-->
+        <tr>
+            <td>28/07/2021 </td>
+            <td>R$24,00</td>
+
+        </tr>
+        <tr>
+
+            <td>29/07/2021</td>
+            <td>R$30,00 </td>
+        </tr>
+    </table>
+
+    <br>
+    <br>
+    <!--========================-->
+    <h2>Family's Tagliaferro</h2>
+    <div class="cat" >
+        <h1>=^.^=</h1>
+    </div>
+    <!--Div fora da tag h1-->
+    <!--Para separar usei <br>-->
+    <br>
+    <table border="3px" cellspacing="2px" cellpadding=2pxwidth=2pxalign=center bgcolor=#00BFFF bordercolor=purple>
+        <tr>
+            <th>Name</th>
+            <th>Middle name</th>
+            <th>Family Name</th>
+        </tr>
+        <tr>
+            <td>Joziane</td>
+            <td>Nascimento</td>
+            <td>Tagliaferro</td>
+        </tr>
+        <tr>
+            <td>Guilherme</td>
+            <td></td>
+            <td>Tagliaferro</td>
+        </tr>
+        <tr>
+            <td bgcolor=#efefef bordercolor=#cccccc nowrap colspan=1 rowspan=2>Maria Sophia</td>
+            <td bgcolor=#efefef bordercolor=#cccccc nowrap colspan=1 rowspan=2>Nascimento</td>
+            <td bgcolor=#efefef bordercolor=#cccccc nowrap colspan=1 rowspan=2>Tagliaferro</td>
+        </tr>
+
+    </table>
+    <br>
+    <br>
+
+    <table border="2px" cellspacing="2px" cellpadding=2pxwidth=1pxalign bgcolor=Aquamarine bordercolor=black>
+        <tr>
+            <th>Tag</th>
+            <th>Função</th>
+        </tr>
+        <tr>
+            <td><strong><em>Nowrap</em></strong></td>
+            <td>Define a não quebra de linha caso o texto seja longo demais, nas células da tabela</td>
+        </tr>
+        <tr>
+            <td bgcolor=#efefef bordecolor=#cccccc nowrap colspan="1px" rowspan="1px"><strong><em>Colspan</em></strong>
+            </td>
+            <td>Especifica o número de colunas a serem mergeadas, misturadas,mescladas</td>
+        </tr>
+        <tr>
+            <td><strong><em>Rowspan</em></strong></td>
+            <td>Especifica o número de linhas a serem mergeadas</td>
+        </tr>
+    </table>
+
+    <!-- +================Dicas==========================-->
+    <h3 div style="background-color: rgb(61, 108, 150); color:rgb(192, 188, 188); padding:20px">Importants
+        <em>Hints</em>!!! </div>
+    </h3>
+    <!--Div dentro da tag h3-->
+    <table border="2px" cellspacing="2px" cellpading=2pxwidth=2pxalign=center bgcolor=00BFFF bordercolor=purple>
+        <th style="color: lightgoldenrodyellow;background-color: purple;">Tags</th>
+        <th style="color: lightgoldenrodyellow;background-color: purple;">Importance</th>
+        <tr>
+            <td><strong><em>Border</em></strong></td>
+            <td>Define a espessura das bordas da tabela</td>
+        </tr>
+        <tr>
+            <td><strong><em>Cellspacing</em></strong></td>
+            <td>Define o espaçamento entre cada célula</td>
+        </tr>
+        <tr>
+            <td><strong><em>Cellpadding</em></strong></td>
+            <td>Define o espaçamento entre o conteúdo da célula e sua borda</td>
+        </tr>
+        <tr>
+            <td><em><strong>Width</strong></em></td>
+            <td>Define a largura da tabela</td>
+        </tr>
+        <tr>
+            <td><strong><em>Align</em></strong></td>
+            <td>Define o alinhamento da tabela em relação a página</td>
+        </tr>
+        <tr>
+            <td><strong><em>Bgcolor</em></strong></td>
+            <td>Define a cor de fundo da tabela;</td>
+        </tr>
+        <tr>
+            <td><strong><em>Bordercolor</em></strong></td>
+            <td>Define a cor da bordas da tabela</td>
+        </tr>
+    </table>
+    <h1>Usando Agrupadores</h1>
+    <p>Quando trabalhamos com tabelas muito complexas, podemos usar o apoio de <strong>agrupadores</strong>, que facilitam o
+            trabalho de definição de layout.Para isso, podemos usar as tags <strong>thead</strong>,
+            <strong>tbody</strong> e <strong>tfoot</strong>. Elas respectivamente, representam qual a região do
+            cabeçalho, corpo e rodapé da tabela.
+            Tais tags não afetarão em nada o layout de sua tabela, caso não seja adicionado um CSS pra elas. </p></h1>
+            <div class="block">
+                <h2>New cat</h2>
+                <h1 style="color: hotpink;">~^.^~ </h1>
+                <table border="2px" cellspacing="2px " cellpadding=5px align="center" bgcolor="yellow" bordercolor="hotpink"> 
+                   <thead>
+                       <tr>
+                           <th style="color: hotpink;">Month</th>
+                           <th style="color: hotpink;">Savings</th><!--poupança-->
+                       </tr>
+                   </thead>
+                   <tbody>
+                       <tr>
+                           <td>January</td>
+                           <td>$100</td>
+                       </tr>
+                       <tr>
+                        <td>February</td>
+                        <td>$80</td>
+                       </tr>
+                   </tbody>
+                   <tfoot>
+                       <tr>
+                           <td style="color: rgb(8, 51, 129);"><strong>Sum</strong></td>
+                           <td>180</td>
+                       </tr>
+                   </tfoot>
+                </table>
+                <br>
+                <br>
+<!--Usar responsive e boostrap para treinar
+to use responvive and boostrap to train/coach-->
+            </div>
+</body>
+
+</html>
